@@ -11,7 +11,7 @@ if (num>9 && num<100)
 
 while (num<=25)
 {
-    Console.WriteLine($"{num} ");
+    Console.Write($"{num} ");
     num++;
 }
 Console.WriteLine();
