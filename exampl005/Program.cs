@@ -9,6 +9,7 @@ int[] CreateArray(int Size)
     int[] Array = new int[Size];
     for (int i = 0; i < Size; i++)
         Array[i] = new Random().Next(-9, 10);
+        return Array;
 }
 
 void FindSums(int[] Array)
